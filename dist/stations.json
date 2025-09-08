@@ -1,0 +1,330 @@
+{
+  "Data": [
+    {
+      "車站編號": "C1",
+      "車站中文名稱": "籬仔內站",
+      "車站英文名稱": "Lizihnei",
+      "Longitude": "120.3246512",
+      "Latitude": "22.6046547"
+    },
+    {
+      "車站編號": "C2",
+      "車站中文名稱": "凱旋瑞田站",
+      "車站英文名稱": "Kaisyuan Rueitian",
+      "Longitude": "120.3197511",
+      "Latitude": "22.5995071"
+    },
+    {
+      "車站編號": "C3",
+      "車站中文名稱": "前鎮之星站",
+      "車站英文名稱": "Cianjhen Star",
+      "Longitude": "120.3153478",
+      "Latitude": "22.5954767"
+    },
+    {
+      "車站編號": "C4",
+      "車站中文名稱": "凱旋中華站",
+      "車站英文名稱": "Kaisyuan Jhonghua",
+      "Longitude": "120.310496",
+      "Latitude": "22.5936295"
+    },
+    {
+      "車站編號": "C5",
+      "車站中文名稱": "夢時代站",
+      "車站英文名稱": "Dream Mall",
+      "Longitude": "120.3049849",
+      "Latitude": "22.5948593"
+    },
+    {
+      "車站編號": "C6",
+      "車站中文名稱": "經貿園區站",
+      "車站英文名稱": "Commerce and Trade Park",
+      "Longitude": "120.3026403",
+      "Latitude": "22.6009345"
+    },
+    {
+      "車站編號": "C7",
+      "車站中文名稱": "軟體園區站",
+      "車站英文名稱": "Software Technology Park",
+      "Longitude": "120.3008122",
+      "Latitude": "22.6056585"
+    },
+    {
+      "車站編號": "C8",
+      "車站中文名稱": "高雄展覽館站",
+      "車站英文名稱": "Kaohsiung Exhibition Center",
+      "Longitude": "120.2980026",
+      "Latitude": "22.6101078"
+    },
+    {
+      "車站編號": "C9",
+      "車站中文名稱": "旅運中心站",
+      "車站英文名稱": "Cruise Terminal",
+      "Longitude": "120.2934187",
+      "Latitude": "22.6115998"
+    },
+    {
+      "車站編號": "C10",
+      "車站中文名稱": "光榮碼頭站",
+      "車站英文名稱": "Glory Pier",
+      "Longitude": "120.2931869",
+      "Latitude": "22.6167276"
+    },
+    {
+      "車站編號": "C11",
+      "車站中文名稱": "真愛碼頭站",
+      "車站英文名稱": "Love Pier",
+      "Longitude": "120.2894459",
+      "Latitude": "22.61929"
+    },
+    {
+      "車站編號": "C12",
+      "車站中文名稱": "駁二大義站",
+      "車站英文名稱": "Dayi Pier-2",
+      "Longitude": "120.2841808",
+      "Latitude": "22.6185377"
+    },
+    {
+      "車站編號": "C13",
+      "車站中文名稱": "駁二蓬萊站",
+      "車站英文名稱": "Penglai Pier-2",
+      "Longitude": "120.2799125",
+      "Latitude": "22.6204699"
+    },
+    {
+      "車站編號": "C14",
+      "車站中文名稱": "哈瑪星站",
+      "車站英文名稱": "Hamasen",
+      "Longitude": "120.2758292",
+      "Latitude": "22.6215919"
+    },
+    {
+      "車站編號": "C15",
+      "車站中文名稱": "壽山公園站",
+      "車站英文名稱": "Shoushan Park",
+      "Longitude": "120.2786",
+      "Latitude": "22.62654"
+    },
+    {
+      "車站編號": "C16",
+      "車站中文名稱": "文武聖殿站",
+      "車站英文名稱": "Wenwu Temple",
+      "Longitude": "120.2807",
+      "Latitude": "22.62959"
+    },
+    {
+      "車站編號": "C17",
+      "車站中文名稱": "鼓山區公所站",
+      "車站英文名稱": "Gushan District Office",
+      "Longitude": "120.2826",
+      "Latitude": "22.6359"
+    },
+    {
+      "車站編號": "C18",
+      "車站中文名稱": "鼓山站",
+      "車站英文名稱": "Gushan",
+      "Longitude": "120.2810928",
+      "Latitude": "22.642009"
+    },
+    {
+      "車站編號": "C19",
+      "車站中文名稱": "馬卡道站",
+      "車站英文名稱": "Makadao",
+      "Longitude": "120.2814855",
+      "Latitude": "22.6470528"
+    },
+    {
+      "車站編號": "C20",
+      "車站中文名稱": "臺鐵美術館站",
+      "車站英文名稱": "TRA Museum of Fine Arts",
+      "Longitude": "120.2817916",
+      "Latitude": "22.65211753"
+    },
+    {
+      "車站編號": "C21A",
+      "車站中文名稱": "內惟藝術中心站",
+      "車站英文名稱": "Neiwei Arts Center",
+      "Longitude": "120.2828856",
+      "Latitude": "22.65500075"
+    },
+    {
+      "車站編號": "C21",
+      "車站中文名稱": "美術館站",
+      "車站英文名稱": "Kaohsiung Museum of Fine Arts",
+      "Longitude": "120.2872437",
+      "Latitude": "22.65504612"
+    },
+    {
+      "車站編號": "C22",
+      "車站中文名稱": "聯合醫院站",
+      "車站英文名稱": "Kaohsiung Municipal United Hospital",
+      "Longitude": "120.2909322",
+      "Latitude": "22.65480602"
+    },
+    {
+      "車站編號": "C23",
+      "車站中文名稱": "龍華國小站",
+      "車站英文名稱": "Longhua Elementary School",
+      "Longitude": "120.2946752",
+      "Latitude": "22.65447406"
+    },
+    {
+      "車站編號": "C24(順行)",
+      "車站中文名稱": "愛河之心站",
+      "車站英文名稱": "Heart of Love River",
+      "Longitude": "120.3027531",
+      "Latitude": "22.65603647"
+    },
+    {
+      "車站編號": "C24(逆行)",
+      "車站中文名稱": "愛河之心站",
+      "車站英文名稱": "Heart of Love River",
+      "Longitude": "120.3038127",
+      "Latitude": "22.65628773"
+    },
+    {
+      "車站編號": "C25(順行)",
+      "車站中文名稱": "新上國小站",
+      "車站英文名稱": "Sinshang Elementary School",
+      "Longitude": "120.3083518",
+      "Latitude": "22.65667514"
+    },
+    {
+      "車站編號": "C25(逆行)",
+      "車站中文名稱": "新上國小站",
+      "車站英文名稱": "Sinshang Elementary School",
+      "Longitude": "120.3092359",
+      "Latitude": "22.65657845"
+    },
+    {
+      "車站編號": "C26(順行)",
+      "車站中文名稱": "大順民族站",
+      "車站英文名稱": "Dashun Minzu",
+      "Longitude": "120.3149847",
+      "Latitude": "22.65555967"
+    },
+    {
+      "車站編號": "C26(逆行)",
+      "車站中文名稱": "大順民族站",
+      "車站英文名稱": "Dashun Minzu",
+      "Longitude": "120.3159292",
+      "Latitude": "22.65535303"
+    },
+    {
+      "車站編號": "C27(順行)",
+      "車站中文名稱": "灣仔內站(大順鼎山)",
+      "車站英文名稱": "Wanzihnei(Dashun Dingshan)",
+      "Longitude": "120.3185601",
+      "Latitude": "22.65375623"
+    },
+    {
+      "車站編號": "C27(逆行)",
+      "車站中文名稱": "灣仔內站(大順鼎山)",
+      "車站英文名稱": "Wanzihnei(Dashun Dingshan)",
+      "Longitude": "120.319221",
+      "Latitude": "22.65335516"
+    },
+    {
+      "車站編號": "C28(順行)",
+      "車站中文名稱": "高雄高工站",
+      "車站英文名稱": "Kaohsiung Industrial High School",
+      "Longitude": "120.3238178",
+      "Latitude": "22.65001014"
+    },
+    {
+      "車站編號": "C28(逆行)",
+      "車站中文名稱": "高雄高工站",
+      "車站英文名稱": "Kaohsiung Industrial High School",
+      "Longitude": "120.324533",
+      "Latitude": "22.64953119"
+    },
+    {
+      "車站編號": "C29(順行)",
+      "車站中文名稱": "樹德家商站",
+      "車站英文名稱": "Shu-Te Home-Economics & Commercial High School",
+      "Longitude": "120.3262116",
+      "Latitude": "22.64414704"
+    },
+    {
+      "車站編號": "C29(逆行)",
+      "車站中文名稱": "樹德家商站",
+      "車站英文名稱": "Shu-Te Home-Economics & Commercial High School",
+      "Longitude": "120.3265487",
+      "Latitude": "22.64337399"
+    },
+    {
+      "車站編號": "C30(順行)",
+      "車站中文名稱": "科工館站",
+      "車站英文名稱": "Science and Technology Museum",
+      "Longitude": "120.3273676",
+      "Latitude": "22.63752371"
+    },
+    {
+      "車站編號": "C30(逆行)",
+      "車站中文名稱": "科工館站",
+      "車站英文名稱": "Science and Technology Museum",
+      "Longitude": "120.3270061",
+      "Latitude": "22.63643343"
+    },
+    {
+      "車站編號": "C31(順行)",
+      "車站中文名稱": "聖功醫院站(道明中學)",
+      "車站英文名稱": "St.Joseph Hospital(St. Dominic Catholic High School)",
+      "Longitude": "120.3258383",
+      "Latitude": "22.6331814"
+    },
+    {
+      "車站編號": "C31(逆行)",
+      "車站中文名稱": "聖功醫院站(道明中學)",
+      "車站英文名稱": "St.Joseph Hospital(St. Dominic Catholic High School)",
+      "Longitude": "120.3253824",
+      "Latitude": "22.63240787"
+    },
+    {
+      "車站編號": "C32",
+      "車站中文名稱": "凱旋公園站",
+      "車站英文名稱": "Kaisyuan Park",
+      "Longitude": "120.32283",
+      "Latitude": "22.62945"
+    },
+    {
+      "車站編號": "C33",
+      "車站中文名稱": "衛生局站",
+      "車站英文名稱": "Department of Health",
+      "Longitude": "120.32368",
+      "Latitude": "22.6252"
+    },
+    {
+      "車站編號": "C34",
+      "車站中文名稱": "五權國小站",
+      "車站英文名稱": "Wucyuan Elementary School",
+      "Longitude": "120.32519",
+      "Latitude": "22.62121"
+    },
+    {
+      "車站編號": "C35",
+      "車站中文名稱": "凱旋武昌站",
+      "車站英文名稱": "Kaisyuan Wuchang",
+      "Longitude": "120.32685",
+      "Latitude": "22.616931"
+    },
+    {
+      "車站編號": "C36",
+      "車站中文名稱": "凱旋二聖站",
+      "車站英文名稱": "Kaisyuan Ersheng",
+      "Longitude": "120.327175",
+      "Latitude": "22.612526"
+    },
+    {
+      "車站編號": "C37",
+      "車站中文名稱": "輕軌機廠站",
+      "車站英文名稱": "LRT Depot",
+      "Longitude": "120.326069",
+      "Latitude": "22.608503"
+    }
+  ],
+  "ErrorCode": 0,
+  "ID": "37dc9451-3f53-4958-be48-3744eab2ba68",
+  "Message": null,
+  "Success": true
+}

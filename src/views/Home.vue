@@ -60,7 +60,7 @@ export default defineComponent({
   },
   methods: {
     async fetchStations() {
-      const res = await fetch('/api')
+      const res = await fetch('/stations.json')
       const result = await res.json()
       const data = Array.isArray(result) ? result : result.Data
 
