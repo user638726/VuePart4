@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>高雄輕軌站點</h1>
-    <div id="map"></div>
+    <div id="mapping"></div>
     <button class="clear-btn" @click="clearMarkers">清除所有標記</button>
     <ul class="station-list">
       <li
@@ -10,7 +10,8 @@
         :key="station.車站編號"
         @click="addMarker(station)"
       >
-        <b>{{ station.車站中文名稱 }}</b><br />
+        <b>{{ station.車站中文名稱 }}</b
+        ><br />
         經度：{{ station.Longitude }}<br />
         緯度：{{ station.Latitude }}
       </li>
@@ -19,59 +20,85 @@
 </template>
 
 <script lang="ts">
-import L from 'leaflet'
+import { defineComponent } from 'vue'
+import * as L from 'leaflet'
+import type { Map as LeafletMap, Marker as LeafletMarker } from 'leaflet'
+import 'leaflet/dist/leaflet.css'
 
-export default {
+interface RawStation {
+  車站編號: string
+  車站中文名稱: string
+  車站英文名稱: string
+  Longitude: string
+  Latitude: string
+}
+
+interface Station {
+  車站編號: string
+  車站中文名稱: string
+  車站英文名稱: string
+  Longitude: number
+  Latitude: number
+}
+
+export default defineComponent({
   data() {
     return {
-      stations: [],
-      map: null,
-      markers: [],
+      map: null as LeafletMap | null,
+      markers: [] as L.Marker[],
+      stations: [] as Station[],
     }
   },
   mounted() {
-    // 初始化地圖
-    this.map = L.map('map').setView([22.6273, 120.3014], 13)
+    this.map = L.map('mapping').setView([22.6273, 120.3014], 13)
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors',
-    }).addTo(this.map)
+    }).addTo(this.map as L.Map)
 
     this.fetchStations()
   },
   methods: {
     async fetchStations() {
-      try {
-        const res = await fetch('/api')
-        const result = await res.json()
+      const res = await fetch('/api')
+      const result = await res.json()
+      const data = Array.isArray(result) ? result : result.Data
 
-        // 有些資料格式不一定完全一致
-        const data = Array.isArray(result) ? result : result.Data
-
-        this.stations = data.map(s => ({
-          ...s,
+      this.stations = (data as RawStation[]).map(
+        (s): Station => ({
+          車站編號: s.車站編號,
+          車站中文名稱: s.車站中文名稱,
+          車站英文名稱: s.車站英文名稱,
           Longitude: parseFloat(s.Longitude),
           Latitude: parseFloat(s.Latitude),
-        }))
-      } catch (err) {
-        console.error('❌ 資料取得失敗:', err)
-      }
+        }),
+      )
     },
-    addMarker(station) {
-      const marker = L.marker([station.Latitude, station.Longitude])
-        .addTo(this.map)
+
+    addMarker(station: Station) {
+      if (!this.map) return
+
+      const m: L.Marker = L.marker([station.Latitude, station.Longitude])
+        .addTo(this.map as L.Map)
         .bindPopup(`<b>${station.車站中文名稱}</b><br>${station.車站英文名稱}`)
         .openPopup()
 
-      this.markers.push(marker)
+      this.markers.push(m)
       this.map.setView([station.Latitude, station.Longitude], 16)
     },
+
     clearMarkers() {
-      this.markers.forEach(marker => this.map.removeLayer(marker))
+
+      for (const m of this.markers) {
+        m.remove()
+      }
+
       this.markers = []
     },
   },
-}
+})
 </script>
+
 
 <style>
 body {
@@ -82,7 +109,7 @@ h1 {
   text-align: center;
   margin-top: 20px;
 }
-#map {
+#mapping {
   height: 400px;
   margin: 10px;
 }
