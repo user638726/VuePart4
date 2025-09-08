@@ -19,19 +19,19 @@ export default defineConfig(({ command }) => {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
       },
     },
-    server: {
-      proxy: {
-        '/api': {
-          target: 'https://data.kcg.gov.tw',
-          changeOrigin: true,
-          rewrite: (path) =>
-            path.replace(
-              /^\/api/,
-              '/Json/Get/9f1cd868-d6dd-4892-b03c-6c9cf2c47bff'
-            ),
-        },
-      },
-    },
+    //server: {
+      //proxy: {
+        //'/api': {
+          //target: 'https://data.kcg.gov.tw',
+          //changeOrigin: true,
+          //rewrite: (path) =>
+            //path.replace(
+              ///^\/api/,
+              //'/Json/Get/9f1cd868-d6dd-4892-b03c-6c9cf2c47bff'
+            //),
+        //},
+      //},
+    //},
   }
 })
 
