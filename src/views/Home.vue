@@ -50,6 +50,11 @@ export default defineComponent({
     }
   },
   mounted() {
+    const basePath = import.meta.env.BASE_URL
+    L.Marker.prototype.options.icon = L.icon({
+    iconUrl: `${basePath}marker-icon.png`,
+    shadowUrl: `${basePath}marker-shadow.png`
+  })
     this.map = L.map('mapping').setView([22.6273, 120.3014], 13)
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
